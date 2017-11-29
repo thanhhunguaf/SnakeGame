@@ -1,0 +1,31 @@
+{
+  "name": "lib",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Kun<thanhhunguaf@gmail.com> extends base with Jax<phuoccm@suga.vn>",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/lib/open": {
+      "message": "lib:open"
+    },
+    "i18n:MAIN_MENU.package.title/lib/hello": {
+      "message": "lib:say-hello"
+    }
+  },
+  "runtime-resource": {
+    "path": "runtime-scripts",
+    "name": "components"
+  },
+  "reload": {
+    "ignore": [
+      "runtime-scripts/**/*"
+    ]
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "lib",
+    "width": 400,
+    "height": 300
+  }
+}
